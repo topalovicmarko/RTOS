@@ -64,6 +64,7 @@ Additional information:
   which then needs to be properly configured.
 */
 
+
 #ifndef SEGGER_SYSVIEW_CONF_H
 #define SEGGER_SYSVIEW_CONF_H
 
