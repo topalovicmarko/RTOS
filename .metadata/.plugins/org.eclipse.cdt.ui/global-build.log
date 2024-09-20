@@ -1,7 +1,14 @@
-15:46:15 **** Build of configuration Debug for project 001Tasks ****
+17:58:39 **** Incremental Build of configuration Debug for project 002LED_Tasks ****
 make -j16 all 
-arm-none-eabi-size  001Tasks.elf 
+arm-none-eabi-size  002LED_Tasks.elf 
    text	   data	    bss	    dec	    hex	filename
-  28668	    100	  84948	 113716	  1bc34	001Tasks.elf
+  26556	     20	  84612	 111188	  1b254	002LED_Tasks.elf
+Finished building: default.size.stdout
+ 
+17:58:45 **** Incremental Build of configuration Debug for project 002LED_Tasks ****
+make -j16 all 
+arm-none-eabi-size  002LED_Tasks.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26556	     20	  84612	 111188	  1b254	002LED_Tasks.elf
 Finished building: default.size.stdout
  

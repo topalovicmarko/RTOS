@@ -65,6 +65,10 @@ void Error_Handler(void);
 #define USART_RX_GPIO_Port GPIOA
 #define LD2_Pin GPIO_PIN_5
 #define LD2_GPIO_Port GPIOA
+#define LD3_Pin GPIO_PIN_6
+#define LD3_GPIO_Port GPIOA
+#define LD4_Pin GPIO_PIN_7
+#define LD4_GPIO_Port GPIOA
 #define TMS_Pin GPIO_PIN_13
 #define TMS_GPIO_Port GPIOA
 #define TCK_Pin GPIO_PIN_14
@@ -73,7 +77,9 @@ void Error_Handler(void);
 #define SWO_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-
+#define LED_GREEN_PIN 	LD2_Pin
+#define LED_RED_PIN 	LD3_Pin
+#define LED_ORANGE_PIN	LD4_Pin
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
