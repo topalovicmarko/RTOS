@@ -991,3 +991,74 @@ java.lang.Exception: Resource '/001Tasks/Debug/ThirdParty/SEGGER/Rec' does not e
 	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-09-20 15:39:27.543 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-20 15:39:48.858
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-20 15:39:48.865
+!MESSAGE Log4j2 initialized with config file D:\Workspace\RTOS_workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-20 15:39:55.274
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2024-09-20 15:45:55.739
+!MESSAGE Exception saving preferences to: C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/p2/org.eclipse.equinox.p2.engine/profileRegistry/STM32CubeIDE.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs.
+!STACK 0
+java.nio.file.NoSuchFileException: C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\p2\org.eclipse.equinox.p2.engine\profileRegistry\STM32CubeIDE.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:392)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:289)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1039)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 2 0 2024-09-20 15:45:55.743
+!MESSAGE Exception saving profile preferences
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception saving preferences to: C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/p2/org.eclipse.equinox.p2.engine/profileRegistry/STM32CubeIDE.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:297)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1039)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.NoSuchFileException: C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\p2\org.eclipse.equinox.p2.engine\profileRegistry\STM32CubeIDE.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:392)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:289)
+	... 4 more
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2024-09-20 15:45:55.886
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\marko\AppData\Local\Temp\STM32CubeIDE_e890990e-da06-4b36-9a3d-2b71c1121374
+!SESSION 2024-09-20 15:45:59.880 -----------------------------------------------
+eclipse.buildId=Version 1.16.0
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/D:/Workspace/RTOS_workspace/
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-20 15:46:06.756
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-20 15:46:06.757
+!MESSAGE Log4j2 initialized with config file D:\Workspace\RTOS_workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-20 15:46:11.658
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-09-20 16:02:58.193
+!MESSAGE Indexed '002LED_Tasks' (19 sources, 81 headers) in 2.33 sec: 4,285 declarations; 18,130 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)

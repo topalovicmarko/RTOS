@@ -1,4 +1,4 @@
-01:31:40 **** Incremental Build of configuration Debug for project 001Tasks ****
+15:46:15 **** Build of configuration Debug for project 001Tasks ****
 make -j16 all 
 arm-none-eabi-size  001Tasks.elf 
    text	   data	    bss	    dec	    hex	filename
