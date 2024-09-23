@@ -1,28 +1,21 @@
-09:15:43 **** Incremental Build of configuration Debug for project 003_LED_Block_Tasks ****
+09:36:59 **** Incremental Build of configuration Debug for project 004LED_Periodic_Tasks ****
 make -j16 all 
-arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/include" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/Config" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/OS" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
-arm-none-eabi-gcc -o "003_LED_Block_Tasks.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Workspace\RTOS_workspace\003_LED_Block_Tasks\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="003_LED_Block_Tasks.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 003_LED_Block_Tasks.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/include" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/Config" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/OS" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "004LED_Periodic_Tasks.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Workspace\RTOS_workspace\004LED_Periodic_Tasks\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="004LED_Periodic_Tasks.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 004LED_Periodic_Tasks.elf
  
-arm-none-eabi-size  003_LED_Block_Tasks.elf 
-arm-none-eabi-objdump -h -S 003_LED_Block_Tasks.elf  > "003_LED_Block_Tasks.list"
+arm-none-eabi-size  004LED_Periodic_Tasks.elf 
+arm-none-eabi-objdump -h -S 004LED_Periodic_Tasks.elf  > "004LED_Periodic_Tasks.list"
    text	   data	    bss	    dec	    hex	filename
-  26604	     20	  84612	 111236	  1b284	003_LED_Block_Tasks.elf
+  26796	     20	  84612	 111428	  1b344	004LED_Periodic_Tasks.elf
 Finished building: default.size.stdout
  
-Finished building: 003_LED_Block_Tasks.list
+Finished building: 004LED_Periodic_Tasks.list
  
-09:15:53 **** Incremental Build of configuration Debug for project 003_LED_Block_Tasks ****
+09:37:31 **** Incremental Build of configuration Debug for project 004LED_Periodic_Tasks ****
 make -j16 all 
-arm-none-eabi-size  003_LED_Block_Tasks.elf 
+arm-none-eabi-size  004LED_Periodic_Tasks.elf 
    text	   data	    bss	    dec	    hex	filename
-  26604	     20	  84612	 111236	  1b284	003_LED_Block_Tasks.elf
-Finished building: default.size.stdout
- 
-09:17:22 **** Incremental Build of configuration Debug for project 003_LED_Block_Tasks ****
-make -j16 all 
-arm-none-eabi-size  003_LED_Block_Tasks.elf 
-   text	   data	    bss	    dec	    hex	filename
-  26604	     20	  84612	 111236	  1b284	003_LED_Block_Tasks.elf
+  26796	     20	  84612	 111428	  1b344	004LED_Periodic_Tasks.elf
 Finished building: default.size.stdout
  

@@ -2010,3 +2010,6 @@ java.lang.Exception: Resource '/003LED_Block_Tasks' does not exist.
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-09-23 09:26:59.076
+!MESSAGE Indexed '004LED_Periodic_Tasks' (19 sources, 81 headers) in 0.797 sec: 4,285 declarations; 18,130 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
