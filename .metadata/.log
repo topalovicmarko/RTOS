@@ -2013,3 +2013,6 @@ java.lang.Exception: Resource '/003LED_Block_Tasks' does not exist.
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-09-23 09:26:59.076
 !MESSAGE Indexed '004LED_Periodic_Tasks' (19 sources, 81 headers) in 0.797 sec: 4,285 declarations; 18,130 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-09-23 14:54:06.524
+!MESSAGE Indexed '005LED_Task_Notify' (19 sources, 81 headers) in 1.23 sec: 4,285 declarations; 18,130 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)

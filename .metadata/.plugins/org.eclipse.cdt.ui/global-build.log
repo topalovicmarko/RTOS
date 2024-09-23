@@ -1,21 +1,49 @@
-09:36:59 **** Incremental Build of configuration Debug for project 004LED_Periodic_Tasks ****
+15:48:15 **** Incremental Build of configuration Debug for project 005LED_Task_Notify ****
 make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/include" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/Config" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/OS" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "004LED_Periodic_Tasks.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Workspace\RTOS_workspace\004LED_Periodic_Tasks\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="004LED_Periodic_Tasks.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 004LED_Periodic_Tasks.elf
- 
-arm-none-eabi-size  004LED_Periodic_Tasks.elf 
-arm-none-eabi-objdump -h -S 004LED_Periodic_Tasks.elf  > "004LED_Periodic_Tasks.list"
+arm-none-eabi-size  005LED_Task_Notify.elf 
    text	   data	    bss	    dec	    hex	filename
-  26796	     20	  84612	 111428	  1b344	004LED_Periodic_Tasks.elf
+  28804	     20	  84636	 113460	  1bb34	005LED_Task_Notify.elf
 Finished building: default.size.stdout
  
-Finished building: 004LED_Periodic_Tasks.list
- 
-09:37:31 **** Incremental Build of configuration Debug for project 004LED_Periodic_Tasks ****
+15:48:18 **** Incremental Build of configuration Debug for project 005LED_Task_Notify ****
 make -j16 all 
-arm-none-eabi-size  004LED_Periodic_Tasks.elf 
+arm-none-eabi-size  005LED_Task_Notify.elf 
    text	   data	    bss	    dec	    hex	filename
-  26796	     20	  84612	 111428	  1b344	004LED_Periodic_Tasks.elf
+  28804	     20	  84636	 113460	  1bb34	005LED_Task_Notify.elf
+Finished building: default.size.stdout
+ 
+15:55:52 **** Incremental Build of configuration Debug for project 005LED_Task_Notify ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/include" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/Config" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/OS" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "005LED_Task_Notify.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Workspace\RTOS_workspace\005LED_Task_Notify\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="005LED_Task_Notify.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 005LED_Task_Notify.elf
+ 
+arm-none-eabi-size  005LED_Task_Notify.elf 
+arm-none-eabi-objdump -h -S 005LED_Task_Notify.elf  > "005LED_Task_Notify.list"
+   text	   data	    bss	    dec	    hex	filename
+  28804	     20	  84636	 113460	  1bb34	005LED_Task_Notify.elf
+Finished building: default.size.stdout
+ 
+Finished building: 005LED_Task_Notify.list
+ 
+15:56:20 **** Incremental Build of configuration Debug for project 005LED_Task_Notify ****
+make -j16 all 
+arm-none-eabi-size  005LED_Task_Notify.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28804	     20	  84636	 113460	  1bb34	005LED_Task_Notify.elf
+Finished building: default.size.stdout
+ 
+15:56:48 **** Incremental Build of configuration Debug for project 005LED_Task_Notify ****
+make -j16 all 
+arm-none-eabi-size  005LED_Task_Notify.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28804	     20	  84636	 113460	  1bb34	005LED_Task_Notify.elf
+Finished building: default.size.stdout
+ 
+15:57:23 **** Incremental Build of configuration Debug for project 005LED_Task_Notify ****
+make -j16 all 
+arm-none-eabi-size  005LED_Task_Notify.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28804	     20	  84636	 113460	  1bb34	005LED_Task_Notify.elf
 Finished building: default.size.stdout
  
