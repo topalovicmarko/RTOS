@@ -1,21 +1,21 @@
-10:39:34 **** Incremental Build of configuration Debug for project 006_Btn_ISR ****
+11:44:57 **** Incremental Build of configuration Debug for project 007Task_Priority ****
 make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/include" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/Config" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/OS" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "006_Btn_ISR.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Workspace\RTOS_workspace\006_Btn_ISR\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="006_Btn_ISR.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 006_Btn_ISR.elf
- 
-arm-none-eabi-size  006_Btn_ISR.elf 
-arm-none-eabi-objdump -h -S 006_Btn_ISR.elf  > "006_Btn_ISR.list"
+arm-none-eabi-size  007Task_Priority.elf 
    text	   data	    bss	    dec	    hex	filename
-  28868	     24	  84624	 113516	  1bb6c	006_Btn_ISR.elf
+  25700	     24	  84616	 110340	  1af04	007Task_Priority.elf
 Finished building: default.size.stdout
  
-Finished building: 006_Btn_ISR.list
- 
-10:39:39 **** Incremental Build of configuration Debug for project 006_Btn_ISR ****
+11:45:03 **** Incremental Build of configuration Debug for project 007Task_Priority ****
 make -j16 all 
-arm-none-eabi-size  006_Btn_ISR.elf 
+arm-none-eabi-size  007Task_Priority.elf 
    text	   data	    bss	    dec	    hex	filename
-  28868	     24	  84624	 113516	  1bb6c	006_Btn_ISR.elf
+  25700	     24	  84616	 110340	  1af04	007Task_Priority.elf
+Finished building: default.size.stdout
+ 
+11:46:04 **** Incremental Build of configuration Debug for project 007Task_Priority ****
+make -j16 all 
+arm-none-eabi-size  007Task_Priority.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25700	     24	  84616	 110340	  1af04	007Task_Priority.elf
 Finished building: default.size.stdout
  

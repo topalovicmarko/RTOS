@@ -1641,7 +1641,7 @@ static void prvAddNewTaskToReadyList( TCB_t * pxNewTCB )
                         mtCOVERAGE_TEST_MARKER();
                     }
 
-					prvReaddTaskToReadyList( pxTCB );
+                    prvAddTaskToReadyList( pxTCB );
                 }
                 else
                 {
