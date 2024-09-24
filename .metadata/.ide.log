@@ -1890,3 +1890,1079 @@ java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()"
 2024-09-24 10:20:16,867 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 434mS.
 2024-09-24 10:20:16,867 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
 2024-09-24 10:20:16,868 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-09-24 10:57:49,078 [INFO] WebApp:189 - Connection lost
+2024-09-24 10:57:49,409 [INFO] WebApp:186 - Connection restablished
+2024-09-24 11:12:08,605 [INFO] WebApp:189 - Connection lost
+2024-09-24 11:12:08,775 [INFO] WebApp:186 - Connection restablished
+2024-09-24 11:15:20,579 [INFO] MainUpdater:2873 - connection check result : 10
+2024-09-24 11:15:20,758 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-09-24 11:15:20,771 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-09-24 11:15:20,774 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2024-09-24 11:15:21,694 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2024-09-24 11:15:21,699 [INFO] DetailPanel:341 - Set advertising image to C:/Users/marko/STM32Cube/Repository/\en.prom-stm32c071-usb-memories-mcu-finder.png
+2024-09-24 11:15:24,560 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2024-09-24 11:15:24,602 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2024-09-24 11:15:24,602 [INFO] DetailPanel:341 - Set advertising image to C:/Users/marko/STM32Cube/Repository/\en.prom-stm32c071-usb-memories-mcu-finder.png
+2024-09-24 11:15:47,249 [INFO] MainUpdater:2873 - connection check result : 10
+2024-09-24 11:15:47,249 [INFO] MainUpdater:2873 - connection check result : 10
+2024-09-24 11:15:47,265 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-09-24 11:15:47,265 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.121
+2024-09-24 11:15:47,282 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$10.caretUpdate(ProjectChoiceTab.java:2622) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:412) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4491) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4513) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:842) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1313) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1212) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1193) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1789) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:780) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:739) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:698) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1729) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:972) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3597) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1940) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:550) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:900) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:781) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:265) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:352) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:250) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1191) ~[com.st.stm32cube.common.mx_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1068) ~[com.st.stm32cube.common.mx_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.12.1.202409122256/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2024-09-24 11:15:47,284 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2024-09-24 11:15:47,284 [INFO] ThirdParty:873 - entering critical section [close project]
+2024-09-24 11:15:47,284 [INFO] ThirdParty:883 - exiting critical section [close project]
+2024-09-24 11:15:47,285 [INFO] PinOutPanel:1561 - setPackage(No Configuration,No Configuration)
+2024-09-24 11:15:47,292 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2024-09-24 11:15:47,296 [WARN] MainPanel:284 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2024-09-24 11:15:47,298 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 440014512 Bytes (996147200)
+2024-09-24 11:15:47,299 [INFO] OpenFileManager:332 - Change cursor
+2024-09-24 11:15:47,317 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2024-09-24 11:15:47,326 [INFO] ProjectFactory:442 - No CPN specified for board NUCLEO-F401RE => set CPN to STM32F401RET6
+2024-09-24 11:15:47,326 [INFO] Mcu:2032 - Initializing MCU STM32F401R(D-E)Tx STM32F401RETx STM32F401RET6
+2024-09-24 11:15:48,021 [INFO] Context:742 - Trying to add GPIOservice into a context  which must be forbidden
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB1 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB1 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB2 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB2 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB3 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB3 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB4 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB4 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB1 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB2 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB3 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB4 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB1 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB2 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB3 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB4 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB1 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB2 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB3 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB4 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2024-09-24 11:15:48,136 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule Rename SubGHz_Phy SUBGHZ_APPLICATION SUBGHZ_PINGPONG to SUBGHZ_ADV_APPLICATION is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule Rename Enabled to IBEACON is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for project manager is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for context M33S is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance value for IP GTZC is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for mcu.IP is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for VP is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for signal is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for mcu.Pin is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for VP is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for signal is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for mcu is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for mcu.Pin is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance value for IP GTZC is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for project manager is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for context M33S is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for VP is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule GTZC_S instance for signal is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule SPDIFRX instance for mcu is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule Rename Tracer Mode is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule SPDIFRX instance value for IP SPDIFRX is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule SPDIFRX instance for signal is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule SPDIFRX instance for project manager is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule SPDIFRX instance for project manager is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule ADC Scan  fix with FW F7 is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule ADC Scan  fix with FW F7 is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule DFSDM instance value for IP DFSDM is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule DFSDM instance for mcu is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule DFSDM instance for VP is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule DFSDM instance for signal is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule DFSDM instance for shared is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule BreakInputSource parameter for IP Timer is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule Sourcebreak parameter for IP Timer is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule Sourcebreak parameter for IP Timer is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule DFSDM for PCC is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule Serial_Wire Mode is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule JTAG_4_pins Mode is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule JTAG_5_pins Mode is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule Trace_Asynchronous_SW Mode is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule Trace_Synchro_1bit_JTAG Mode is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule Trace_Synchro_2bits_JTAG Mode is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule Trace_Synchro_4bits_JTAG Mode is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule Trace_Synchro_1bit_SW Mode is applicable
+2024-09-24 11:15:48,137 [INFO] Rule:228 - rule Trace_Synchro_2bits_SW Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Trace_Synchro_4bits_SW Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule SYS_WakeUp0 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule SYS_WakeUp0 Mode for STM32F446 is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule SYS_WakeUp1 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule SYS_WakeUp1 Mode for STM32F446 is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule SYS_WakeUp2 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule SYS_WakeUp3 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule SYS_WakeUp4 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule SYS_WakeUp5 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule SYS_WakeUp6 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule SYS_WakeUp7 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule WakeUp0 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule WakeUp0 SIGNAL is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule WakeUp1 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule WakeUp1 SIGNAL is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule WakeUp2 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule WakeUp2 SIGNAL is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule WakeUp4 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule WakeUp4 SIGNAL is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule WakeUp5 Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule WakeUp5 SIGNAL is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Mode_PVD_Ext is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Mode_PVD_Int is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Add RTC Activate Clock Source is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Add RTC Activate Calendar 1 is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Add RTC Activate Calendar 2 is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Add RTC Activate Calendar 3 is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule UART/USART TX Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule UART/USART RX Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule UART/USART RX TX Mode is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule UART/USART PARITY NONE is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule UART/USART PARITY EVEN is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule UART/USART PARITY ODD is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule USART StopBits 1 is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule USART StopBits 2 is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule USART StopBits 1.5 is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule USART StopBits 0.5 is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule UART/USART WORD LENGTH 7 is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule UART/USART WORD LENGTH 8 is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule UART/USART WORD LENGTH 9 is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Rename FMC NAND NCE signal is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Rename FMC NAND INT signal is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Change Default Value for LSE Drive Capability for WB family is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Change Default Value for ADC Clock Prescaler G0 family is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv L4 family is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv L4 family is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F3 family is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv F3 family is applicable
+2024-09-24 11:15:48,138 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv Goldfish serie is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv Goldfish serie is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv L0 family is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F0 family is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConvn L1 family is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv L1 family is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F1 family is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv F1 family is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F7 family is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv F7 family is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F4 and F2 family is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv F4 and F2 family is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0  is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0  is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0 is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0 is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0  is applicable
+2024-09-24 11:15:48,139 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename USB_OE Signal is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename Activate_OE Mode is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PC14/OSC32_IN -> PC14-OSC32_IN (PC14) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PC15/OSC32_OUT -> PC15-OSC32_OUT (PC15) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PH0/OSC_IN -> PH0-OSC_IN (PH0) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PH1/OSC_OUT -> PH1-OSC_OUT (PH1) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE462 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE415 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE462 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE415 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PA15 -> PA15 (JTDI) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE462 pin PB3 -> PB3 (JTD0/TRACESWO) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE415 pin PB3 -> PB3 (JTD0-TRACESWO) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PB4 -> PB4 (NJTRST) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DIE462 pin PH3/BOOT0 -> PH3-BOOT0 (BOOT0) is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename CRYP DataEncryptionTypesList to Algorithm is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename AES DataEncryptionTypesList to Algorithm is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename TDESECB to CRYP_TDES_ECB is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename TDESCBC to CRYP_TDES_CBC is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DESECB to CRYP_DES_ECB is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename DESCBC to CRYP_DES_CBC is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename AESECB to CRYP_AES_ECB is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename AESCBC to CRYP_AES_CBC is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename AESCTR to CRYP_AES_CTR is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename AESGCM to CRYP_AES_GCM is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename AESCCM to CRYP_AES_CCM is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename CAN TimeSeg1 to BS1 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename CAN TimeSeg2 to BS2 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename CAN SyncJumpWidth to SJW is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule TimeTriggeredMode to TTCM is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename CAN AutoBusOff to ABOM is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename CAN AutoWakeUp to AWUM is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename CAN AutoRetransmission to NART is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename CAN ReceiveFifoLocked to RFLM is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename CAN TransmitFifoPriority to TXFP is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGH in HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGHZ is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Rename TIMER TIM_CLEARINPUTSOURCE_OCREFCLR in  TIMER TIM_CLEARINPUTSOURCE_NONE for F7 family is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN_R1 - Rename FDCAN mode Master into Classic is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN_R2 - Rename FDCAN mode Slave into Classic is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN1_R3 - if PA10.Mode=FullDuplex, add Pin PA12 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN1_R3 - if PA9.Mode=FullDuplex, add Pin PA11 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN1_R3 - Alternatepin_1 - if PE1.Mode=FullDuplex, add Pin PB9 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN1_R3 - Alternatepin_1 - if PE0.Mode=FullDuplex, add Pin PB8 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN1_R3 - Alternatepin_2 - if PD5.Mode=FullDuplex, add Pin PD1 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN1_R3 - Alternatepin_2 - if PD4.Mode=FullDuplex, add Pin PD0 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA10 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA9 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE1 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE0 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD5 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD4 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN2_R3 - if PD10.Mode=FullDuplex, add Pin PB13 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN2_R3 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN2_R3 - Alternatepin_1 - if PB7.Mode=FullDuplex, add Pin PB6 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN2_R3 - Alternatepin_1 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD10 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD9 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PB7 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD6 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule USART TxPinLevelInvertParam Mode is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule USART RxPinLevelInvertParam Mode is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule USART DataInvertParam Mode is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule USART SwapParam Mode is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule USART OverrunDisableParam Mode is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule USART DMADisableonRxErrorParam Mode is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule USART MSBFirstParam Mode is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Update MwName for USB_DEVICE is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule Change PWR_Regulator_Voltage_Scale Default Value for RCC  H7 family is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule UART/USART IPParameter rename Prescaler parameter to ClockPrescaler is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule UART/USART Prescaler rename Prescaler parameter to ClockPrescaler is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule TIM1CLockSelection is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule TIM15CLockSelection is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule align RCC SDMMC3CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule align RCC SDMMC12CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule align RCC SPI6CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule align RCC LPTIM23CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,140 [INFO] Rule:228 - rule align RCC LPTIM1CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule align RCC USART1CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule align RCC USART24CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule align RCC USART6CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule align RCC UART78CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule align RCC USART35CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule align RCC I2C46CLockSelection BCLK value on MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule align RCC I2C12CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule align RCC I2C35CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule align RCC LPTIM45CLockSelection default value on MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Rename DCMI PIXCK signal is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change Default Value for I2C46CLockSelection MP1 family is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change Default Value for UART for G4, G0 and WB families is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change Default Value for USART for G4, G0 and WB families is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change Default Value for USART for G4 family is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change USART1CLockSelection refparam name for MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change USART2CLockSelection refparam name for MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change USART3CLockSelection refparam name for MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change UART4CLockSelection refparam name for MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change UART5CLockSelection refparam name for MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change LPUART1CLockSelection refparam name for MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change LPTIM1CLockSelection refparam name for MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change LPTIM2CLockSelection refparam name for MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change RCC_MCO1Source refparam name for MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change LSCOSource1 refparam name for MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change SMPSCLockSelection refparam name for MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change LPTIM3CLockSelection refparam name for MP1 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change MPCBB* Default Template Mode to Parameters is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change MPCWM* or MPCBB* Secure Mode to Parameters is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change MPCWM* or MPCBB* No Secure Mode to Parameters is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change TZSC IP Secure Mode to Parameters is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change TZSC IP No Secure Mode to Parameters is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change TZSC IP Privilege Mode to Parameters is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change TZSC IP No Privilege Mode to Parameters is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change TZIC IT Secure Mode to Parameters is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change TZIC IT No Secure Mode to Parameters is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Add MPCBB1_NonSecureArea_Start_Address value with referenced to MPCBB1_NonSecureArea_Start value is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Add MPCBB2_NonSecureArea_Start_Address value with referenced to MPCBB2_NonSecureArea_Start value is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Add MPCWM1_NonSecureArea*_Start_Address value with referenced to MPCWM1_NonSecureArea*_Start value is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Add MPCWM2_NonSecureArea*_Start_Address value with referenced to MPCWM2_NonSecureArea*_Start value is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Add MPCWM3_NonSecureArea_Start_Address value with referenced to MPCWM3_NonSecureArea_Start value is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change Default Value for PLL1UserDefinedConfig is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change GPIO_PuPd Default Value for USART in async mode is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change SMPSDivider Default Value is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule OPAMP is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32H7 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32H7 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32WB is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32WB is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32L5 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32L5 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule USB device lib V2.5.3 for L0 rename USBD_SUPPORT_USER_STRING parameter to USBD_SUPPORT_USER_STRING_DESC4 is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule I2SCLockSelection clock entry align is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Assign TIMx context if used as SYS timebase is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change GPIO_Pu Default Value for I2C is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change GPIO_Pu Default Value for SMBus is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule change FDCAN default value is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Change mode sai is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule **Change sai mode is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Rename STM32WPAN CFG_BLE_IRK to CFG_BLE_IR is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Rename STM32WPAN CFG_BLE_ERK to CFG_BLE_ER is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Rename STM32WPAN CFG_BLE_IRK_HEX to CFG_BLE_IR_HEX is applicable
+2024-09-24 11:15:48,141 [INFO] Rule:228 - rule Rename STM32WPAN CFG_BLE_ERK_HEX to CFG_BLE_ER_HEX is applicable
+2024-09-24 11:15:48,146 [INFO] DbConfProperties:307 - Apply Compatibility (78/293 Rules)
+2024-09-24 11:15:48,370 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2024-09-24 11:15:48,420 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2024-09-24 11:15:48,420 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2024-09-24 11:15:48,420 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2024-09-24 11:15:48,420 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2024-09-24 11:15:48,420 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2024-09-24 11:15:48,423 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-09-24 11:15:48,424 [WARN] ModelPack:524 - Component already loaded: STMicroelectronics:HAL Drivers:0.0.0:STMicroelectronics:Device:STMicro_Driver:XSPI:HAL::0.0.1:HAL_XSPI
+2024-09-24 11:15:48,469 [INFO] ThirdPartyModel:298 - Start build external matchings
+2024-09-24 11:15:48,912 [INFO] ThirdPartyModel:316 - End build external matchings
+2024-09-24 11:15:49,149 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 534128624 Bytes (996147200)
+2024-09-24 11:15:49,175 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2024-09-24 11:15:49,175 [INFO] ThirdParty:835 - entering critical section [change project]
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.3.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.1.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.1.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.2.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STBOX1 2.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.2.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :EmbeddedOffice I-CUBE-FS-RTOS 1.0.1
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.13.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 9.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RealThread X-CUBE-RT-Thread_Nano 4.1.1
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.7.2
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.0.0
+2024-09-24 11:15:49,175 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.2
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 10.0.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.24.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.2.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.24.1
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.1.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.0.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfMQTT 1.19.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.2
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.1
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.2.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.6.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2024-09-24 11:15:49,176 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.17
+2024-09-24 11:15:49,176 [INFO] ThirdParty:841 - exiting critical section [change project]
+2024-09-24 11:15:49,278 [INFO] PinOutPanel:1561 - setPackage(No Configuration,No Configuration)
+2024-09-24 11:15:49,280 [INFO] PinOutPanel:1561 - setPackage(STM32F401RETx,LQFP64)
+2024-09-24 11:15:49,430 [INFO] UtilMem:75 - Before build in PCC Used Memory: 643277744 Bytes (996147200)
+2024-09-24 11:15:49,618 [INFO] UtilMem:75 - After build in PCC Used Memory: 687317936 Bytes (996147200)
+2024-09-24 11:15:49,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,642 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,644 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,645 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,645 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,645 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,645 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,645 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,645 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,645 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,645 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-09-24 11:15:49,664 [INFO] ApiDbMcu:508 - Load IP Config File for PDM2PCM
+2024-09-24 11:15:49,696 [INFO] CADModel:165 - CPN selected for project levelSTM32F401RET6
+2024-09-24 11:15:49,696 [INFO] CADModel:114 - Register for checkConnection events
+2024-09-24 11:15:49,745 [INFO] OpenFileManager:363 - Restore cursor
+2024-09-24 11:15:49,899 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 753274448 Bytes (996147200)
+2024-09-24 11:15:49,932 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 768058288 Bytes (996147200)
+2024-09-24 11:15:49,991 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-09-24 11:15:49,991 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-09-24 11:15:49,991 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-09-24 11:15:49,991 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-09-24 11:15:50,086 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\license.tmp_save
+2024-09-24 11:15:50,164 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\license.tmp
+2024-09-24 11:15:50,193 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\gpio.tmp_save
+2024-09-24 11:15:50,257 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\gpio.tmp
+2024-09-24 11:15:50,268 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_it.c_save
+2024-09-24 11:15:50,374 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_it.c
+2024-09-24 11:15:50,382 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_it.h_save
+2024-09-24 11:15:50,431 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_it.h
+2024-09-24 11:15:50,453 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_msp.c_save
+2024-09-24 11:15:50,524 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_msp.c
+2024-09-24 11:15:50,531 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\system.tmp_save
+2024-09-24 11:15:50,571 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\system.tmp
+2024-09-24 11:15:50,581 [INFO] CodeEngine:311 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-09-24 11:15:50,642 [INFO] CodeEngine:335 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_hal_conf.h
+2024-09-24 11:15:50,676 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\main.h_save
+2024-09-24 11:15:50,741 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\main.h
+2024-09-24 11:15:50,750 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\main.c_save
+2024-09-24 11:15:50,821 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\main.c
+2024-09-24 11:15:51,032 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 117mS.
+2024-09-24 11:15:51,033 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-09-24 11:15:51,080 [INFO] ConfigFileManager:1531 - The Die is : DIE433
+2024-09-24 11:15:51,088 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-09-24 11:15:51,101 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-09-24 11:15:51,109 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-09-24 11:15:51,120 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-09-24 11:15:51,133 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-09-24 11:15:51,142 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2024-09-24 11:15:52,357 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1324mS.
+2024-09-24 11:15:52,357 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-09-24 11:15:52,358 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-09-24 11:15:53,221 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2024-09-24 11:15:53,225 [INFO] ApiDb:448 - Save user favorites file C:\Users\marko/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-09-24 11:15:53,225 [INFO] ApiDb:452 - User favorites MCUs=[]
+2024-09-24 11:15:53,226 [INFO] ApiDb:448 - Save user favorites file C:\Users\marko/.stm32cubeide/favorites.boards.txt: 1 item(s)
+2024-09-24 11:15:53,226 [INFO] ApiDb:452 - User favorites Boards=[NUCLEO-F401RE]
+2024-09-24 11:16:11,664 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.Error: no ComponentUI class for: com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=null,paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=]
+2024-09-24 11:16:11,666 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUIError(UIDefaults.java:763)
+2024-09-24 11:16:11,666 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.MultiUIDefaults.getUIError(MultiUIDefaults.java:144)
+2024-09-24 11:16:11,667 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUI(UIDefaults.java:793)
+2024-09-24 11:16:11,667 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIManager.getUI(UIManager.java:1073)
+2024-09-24 11:16:11,668 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.updateUI(JCheckBox.java:228)
+2024-09-24 11:16:11,669 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.init(AbstractButton.java:2141)
+2024-09-24 11:16:11,671 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JToggleButton.<init>(JToggleButton.java:187)
+2024-09-24 11:16:11,671 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:176)
+2024-09-24 11:16:11,672 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:97)
+2024-09-24 11:16:11,672 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader.<init>(CheckBoxHeader.java:55)
+2024-09-24 11:16:11,673 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodeSelectionTable.<init>(NvicCodeSelectionTable.java:75)
+2024-09-24 11:16:11,674 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.initComponents(NvicCodePanel.java:102)
+2024-09-24 11:16:11,674 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.<init>(NvicCodePanel.java:78)
+2024-09-24 11:16:11,676 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicTabbedPanel.<init>(NvicTabbedPanel.java:57)
+2024-09-24 11:16:11,677 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.Nvic.getUI(Nvic.java:73)
+2024-09-24 11:16:11,677 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.createIpPanel(BlockDiagram.java:424)
+2024-09-24 11:16:11,678 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:574)
+2024-09-24 11:16:11,679 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:480)
+2024-09-24 11:16:11,679 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.propertyChange(BlockDiagram.java:1407)
+2024-09-24 11:16:11,680 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2024-09-24 11:16:11,681 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2024-09-24 11:16:11,682 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268)
+2024-09-24 11:16:11,684 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54)
+2024-09-24 11:16:11,685 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.firePropertyChange(MxSystem.java:358)
+2024-09-24 11:16:11,686 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.selectIP(PeripheralsSelectionPanel.java:409)
+2024-09-24 11:16:11,687 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsListListener.mouseClicked(PeripheralsListListener.java:103)
+2024-09-24 11:16:11,689 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+2024-09-24 11:16:11,690 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6629)
+2024-09-24 11:16:11,691 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2024-09-24 11:16:11,691 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2024-09-24 11:16:11,692 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2024-09-24 11:16:11,692 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2024-09-24 11:16:11,693 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2024-09-24 11:16:11,694 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-09-24 11:16:11,696 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2024-09-24 11:16:11,699 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4584)
+2024-09-24 11:16:11,700 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2024-09-24 11:16:11,700 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2024-09-24 11:16:11,701 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-09-24 11:16:11,701 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2024-09-24 11:16:11,703 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-09-24 11:16:11,704 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-09-24 11:16:11,705 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-09-24 11:16:11,705 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-09-24 11:16:11,707 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2024-09-24 11:16:11,709 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2024-09-24 11:16:11,710 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-09-24 11:16:11,711 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-09-24 11:16:11,712 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-09-24 11:16:11,713 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2024-09-24 11:16:11,714 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-09-24 11:16:11,715 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-09-24 11:16:11,716 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-09-24 11:16:11,717 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-09-24 11:16:11,718 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-09-24 11:16:11,718 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-09-24 11:16:11,721 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.Error: no ComponentUI class for: com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=null,paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=]
+2024-09-24 11:16:11,722 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUIError(UIDefaults.java:763)
+2024-09-24 11:16:11,724 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.MultiUIDefaults.getUIError(MultiUIDefaults.java:144)
+2024-09-24 11:16:11,724 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUI(UIDefaults.java:793)
+2024-09-24 11:16:11,725 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIManager.getUI(UIManager.java:1073)
+2024-09-24 11:16:11,726 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.updateUI(JCheckBox.java:228)
+2024-09-24 11:16:11,726 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.init(AbstractButton.java:2141)
+2024-09-24 11:16:11,727 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JToggleButton.<init>(JToggleButton.java:187)
+2024-09-24 11:16:11,727 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:176)
+2024-09-24 11:16:11,728 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:97)
+2024-09-24 11:16:11,728 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader.<init>(CheckBoxHeader.java:55)
+2024-09-24 11:16:11,729 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodeSelectionTable.<init>(NvicCodeSelectionTable.java:78)
+2024-09-24 11:16:11,731 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.initComponents(NvicCodePanel.java:102)
+2024-09-24 11:16:11,732 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.<init>(NvicCodePanel.java:78)
+2024-09-24 11:16:11,733 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicTabbedPanel.<init>(NvicTabbedPanel.java:57)
+2024-09-24 11:16:11,733 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.Nvic.getUI(Nvic.java:73)
+2024-09-24 11:16:11,734 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.createIpPanel(BlockDiagram.java:424)
+2024-09-24 11:16:11,735 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:574)
+2024-09-24 11:16:11,736 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:480)
+2024-09-24 11:16:11,736 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.propertyChange(BlockDiagram.java:1407)
+2024-09-24 11:16:11,737 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2024-09-24 11:16:11,738 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2024-09-24 11:16:11,739 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268)
+2024-09-24 11:16:11,740 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54)
+2024-09-24 11:16:11,741 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.firePropertyChange(MxSystem.java:358)
+2024-09-24 11:16:11,742 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.selectIP(PeripheralsSelectionPanel.java:409)
+2024-09-24 11:16:11,742 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsListListener.mouseClicked(PeripheralsListListener.java:103)
+2024-09-24 11:16:11,743 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+2024-09-24 11:16:11,744 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6629)
+2024-09-24 11:16:11,744 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2024-09-24 11:16:11,745 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2024-09-24 11:16:11,746 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2024-09-24 11:16:11,746 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2024-09-24 11:16:11,747 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2024-09-24 11:16:11,747 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-09-24 11:16:11,748 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2024-09-24 11:16:11,749 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4584)
+2024-09-24 11:16:11,749 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2024-09-24 11:16:11,750 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2024-09-24 11:16:11,750 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-09-24 11:16:11,751 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2024-09-24 11:16:11,751 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-09-24 11:16:11,752 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-09-24 11:16:11,753 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-09-24 11:16:11,754 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-09-24 11:16:11,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2024-09-24 11:16:11,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2024-09-24 11:16:11,756 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-09-24 11:16:11,756 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-09-24 11:16:11,757 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-09-24 11:16:11,758 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2024-09-24 11:16:11,759 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-09-24 11:16:11,760 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-09-24 11:16:11,761 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-09-24 11:16:11,761 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-09-24 11:16:11,762 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-09-24 11:16:11,763 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-09-24 11:16:43,948 [INFO] Gpio:277 - dependency for GPIO []
+2024-09-24 11:17:11,964 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 794837472 Bytes (947912704)
+2024-09-24 11:17:12,008 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 809517536 Bytes (947912704)
+2024-09-24 11:17:12,429 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 294475192 Bytes (947912704)
+2024-09-24 11:17:12,481 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-09-24 11:17:12,481 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-09-24 11:17:12,481 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-09-24 11:17:12,481 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-09-24 11:17:12,482 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-09-24 11:17:12,524 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\license.tmp_save
+2024-09-24 11:17:12,607 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\license.tmp
+2024-09-24 11:17:12,620 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\gpio.tmp_save
+2024-09-24 11:17:12,682 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\gpio.tmp
+2024-09-24 11:17:12,696 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_it.c_save
+2024-09-24 11:17:12,760 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_it.c
+2024-09-24 11:17:12,763 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_it.h_save
+2024-09-24 11:17:12,807 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_it.h
+2024-09-24 11:17:12,819 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_msp.c_save
+2024-09-24 11:17:12,880 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_msp.c
+2024-09-24 11:17:12,883 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\system.tmp_save
+2024-09-24 11:17:12,918 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\system.tmp
+2024-09-24 11:17:12,926 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-09-24 11:17:12,982 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-09-24 11:17:12,993 [INFO] CodeEngine:311 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-09-24 11:17:13,050 [INFO] CodeEngine:335 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_hal_conf.h
+2024-09-24 11:17:13,079 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\main.h_save
+2024-09-24 11:17:13,134 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\main.h
+2024-09-24 11:17:13,143 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\main.c_save
+2024-09-24 11:17:13,204 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\main.c
+2024-09-24 11:17:13,342 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 69mS.
+2024-09-24 11:17:13,343 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-09-24 11:17:13,379 [INFO] ConfigFileManager:1531 - The Die is : DIE433
+2024-09-24 11:17:13,687 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 344mS.
+2024-09-24 11:17:13,687 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-09-24 11:17:13,688 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-09-24 11:17:15,541 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 708300104 Bytes (947912704)
+2024-09-24 11:17:15,608 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-09-24 11:17:15,608 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-09-24 11:17:15,608 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-09-24 11:17:15,608 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-09-24 11:17:15,608 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-09-24 11:17:15,685 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\license.tmp_save
+2024-09-24 11:17:15,721 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\license.tmp
+2024-09-24 11:17:15,731 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\gpio.tmp_save
+2024-09-24 11:17:15,779 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\gpio.tmp
+2024-09-24 11:17:15,796 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_it.c_save
+2024-09-24 11:17:15,839 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_it.c
+2024-09-24 11:17:15,842 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_it.h_save
+2024-09-24 11:17:15,875 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_it.h
+2024-09-24 11:17:15,886 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_msp.c_save
+2024-09-24 11:17:15,930 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_msp.c
+2024-09-24 11:17:15,931 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\system.tmp_save
+2024-09-24 11:17:15,963 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\system.tmp
+2024-09-24 11:17:15,972 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-09-24 11:17:16,010 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-09-24 11:17:16,021 [INFO] CodeEngine:311 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-09-24 11:17:16,078 [INFO] CodeEngine:335 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_hal_conf.h
+2024-09-24 11:17:16,101 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\main.h_save
+2024-09-24 11:17:16,142 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\main.h
+2024-09-24 11:17:16,151 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\main.c_save
+2024-09-24 11:17:16,194 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\main.c
+2024-09-24 11:17:16,329 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 64mS.
+2024-09-24 11:17:16,330 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-09-24 11:17:16,369 [INFO] ConfigFileManager:1531 - The Die is : DIE433
+2024-09-24 11:17:16,663 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 332mS.
+2024-09-24 11:17:16,663 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-09-24 11:17:16,663 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-09-24 11:30:58,605 [INFO] WebApp:189 - Connection lost
+2024-09-24 11:30:58,786 [INFO] WebApp:186 - Connection restablished
+2024-09-24 11:35:56,874 [INFO] Gpio:277 - dependency for GPIO []
+2024-09-24 11:35:56,932 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.Error: no ComponentUI class for: com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=null,paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=]
+2024-09-24 11:35:56,933 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUIError(UIDefaults.java:763)
+2024-09-24 11:35:56,934 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.MultiUIDefaults.getUIError(MultiUIDefaults.java:144)
+2024-09-24 11:35:56,934 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUI(UIDefaults.java:793)
+2024-09-24 11:35:56,935 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIManager.getUI(UIManager.java:1073)
+2024-09-24 11:35:56,936 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.updateUI(JCheckBox.java:228)
+2024-09-24 11:35:56,936 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.init(AbstractButton.java:2141)
+2024-09-24 11:35:56,937 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JToggleButton.<init>(JToggleButton.java:187)
+2024-09-24 11:35:56,938 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:176)
+2024-09-24 11:35:56,938 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:97)
+2024-09-24 11:35:56,939 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader.<init>(CheckBoxHeader.java:55)
+2024-09-24 11:35:56,940 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodeSelectionTable.<init>(NvicCodeSelectionTable.java:75)
+2024-09-24 11:35:56,940 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.initComponents(NvicCodePanel.java:102)
+2024-09-24 11:35:56,941 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.<init>(NvicCodePanel.java:78)
+2024-09-24 11:35:56,942 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicTabbedPanel.<init>(NvicTabbedPanel.java:57)
+2024-09-24 11:35:56,942 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.Nvic.getUI(Nvic.java:73)
+2024-09-24 11:35:56,943 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.createIpPanel(BlockDiagram.java:424)
+2024-09-24 11:35:56,944 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:574)
+2024-09-24 11:35:56,944 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:480)
+2024-09-24 11:35:56,945 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.propertyChange(BlockDiagram.java:1407)
+2024-09-24 11:35:56,946 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2024-09-24 11:35:56,946 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2024-09-24 11:35:56,947 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268)
+2024-09-24 11:35:56,948 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54)
+2024-09-24 11:35:56,949 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.firePropertyChange(MxSystem.java:358)
+2024-09-24 11:35:56,950 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.selectIP(PeripheralsSelectionPanel.java:409)
+2024-09-24 11:35:56,951 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsListListener.mouseClicked(PeripheralsListListener.java:103)
+2024-09-24 11:35:56,952 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+2024-09-24 11:35:56,953 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+2024-09-24 11:35:56,953 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+2024-09-24 11:35:56,954 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6629)
+2024-09-24 11:35:56,955 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2024-09-24 11:35:56,955 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2024-09-24 11:35:56,956 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2024-09-24 11:35:56,957 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2024-09-24 11:35:56,957 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2024-09-24 11:35:56,958 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-09-24 11:35:56,958 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2024-09-24 11:35:56,959 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4584)
+2024-09-24 11:35:56,959 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2024-09-24 11:35:56,960 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2024-09-24 11:35:56,960 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-09-24 11:35:56,962 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2024-09-24 11:35:56,962 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-09-24 11:35:56,963 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-09-24 11:35:56,964 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-09-24 11:35:56,965 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-09-24 11:35:56,966 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2024-09-24 11:35:56,966 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2024-09-24 11:35:56,967 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-09-24 11:35:56,967 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-09-24 11:35:56,970 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-09-24 11:35:56,970 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2024-09-24 11:35:56,971 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-09-24 11:35:56,972 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-09-24 11:35:56,972 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-09-24 11:35:56,973 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-09-24 11:35:56,975 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-09-24 11:35:56,976 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-09-24 11:35:56,978 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.Error: no ComponentUI class for: com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=null,paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=]
+2024-09-24 11:35:56,978 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUIError(UIDefaults.java:763)
+2024-09-24 11:35:56,979 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.MultiUIDefaults.getUIError(MultiUIDefaults.java:144)
+2024-09-24 11:35:56,979 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUI(UIDefaults.java:793)
+2024-09-24 11:35:56,980 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIManager.getUI(UIManager.java:1073)
+2024-09-24 11:35:56,980 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.updateUI(JCheckBox.java:228)
+2024-09-24 11:35:56,981 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.init(AbstractButton.java:2141)
+2024-09-24 11:35:56,981 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JToggleButton.<init>(JToggleButton.java:187)
+2024-09-24 11:35:56,982 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:176)
+2024-09-24 11:35:56,982 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:97)
+2024-09-24 11:35:56,983 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader.<init>(CheckBoxHeader.java:55)
+2024-09-24 11:35:56,984 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodeSelectionTable.<init>(NvicCodeSelectionTable.java:78)
+2024-09-24 11:35:56,984 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.initComponents(NvicCodePanel.java:102)
+2024-09-24 11:35:56,985 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.<init>(NvicCodePanel.java:78)
+2024-09-24 11:35:56,986 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicTabbedPanel.<init>(NvicTabbedPanel.java:57)
+2024-09-24 11:35:56,986 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.Nvic.getUI(Nvic.java:73)
+2024-09-24 11:35:56,987 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.createIpPanel(BlockDiagram.java:424)
+2024-09-24 11:35:56,987 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:574)
+2024-09-24 11:35:56,988 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:480)
+2024-09-24 11:35:56,989 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.propertyChange(BlockDiagram.java:1407)
+2024-09-24 11:35:56,989 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2024-09-24 11:35:56,990 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2024-09-24 11:35:56,991 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268)
+2024-09-24 11:35:56,991 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54)
+2024-09-24 11:35:56,992 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.firePropertyChange(MxSystem.java:358)
+2024-09-24 11:35:56,993 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.selectIP(PeripheralsSelectionPanel.java:409)
+2024-09-24 11:35:56,994 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsListListener.mouseClicked(PeripheralsListListener.java:103)
+2024-09-24 11:35:56,994 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+2024-09-24 11:35:56,995 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+2024-09-24 11:35:56,995 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+2024-09-24 11:35:56,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6629)
+2024-09-24 11:35:56,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2024-09-24 11:35:56,997 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2024-09-24 11:35:56,997 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2024-09-24 11:35:56,998 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2024-09-24 11:35:56,999 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2024-09-24 11:35:56,999 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-09-24 11:35:57,000 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2024-09-24 11:35:57,001 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4584)
+2024-09-24 11:35:57,001 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2024-09-24 11:35:57,002 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2024-09-24 11:35:57,002 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-09-24 11:35:57,003 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2024-09-24 11:35:57,004 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-09-24 11:35:57,005 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-09-24 11:35:57,005 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-09-24 11:35:57,006 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-09-24 11:35:57,007 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2024-09-24 11:35:57,007 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2024-09-24 11:35:57,008 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-09-24 11:35:57,008 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-09-24 11:35:57,009 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-09-24 11:35:57,009 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2024-09-24 11:35:57,011 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-09-24 11:35:57,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-09-24 11:35:57,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-09-24 11:35:57,013 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-09-24 11:35:57,013 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-09-24 11:35:57,014 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-09-24 11:35:57,098 [INFO] WebApp:189 - Connection lost
+2024-09-24 11:35:57,354 [INFO] WebApp:186 - Connection restablished
+2024-09-24 11:36:01,328 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.Error: no ComponentUI class for: com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=null,paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=]
+2024-09-24 11:36:01,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUIError(UIDefaults.java:763)
+2024-09-24 11:36:01,329 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.MultiUIDefaults.getUIError(MultiUIDefaults.java:144)
+2024-09-24 11:36:01,330 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUI(UIDefaults.java:793)
+2024-09-24 11:36:01,330 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIManager.getUI(UIManager.java:1073)
+2024-09-24 11:36:01,331 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.updateUI(JCheckBox.java:228)
+2024-09-24 11:36:01,332 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.init(AbstractButton.java:2141)
+2024-09-24 11:36:01,332 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JToggleButton.<init>(JToggleButton.java:187)
+2024-09-24 11:36:01,333 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:176)
+2024-09-24 11:36:01,333 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:97)
+2024-09-24 11:36:01,334 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader.<init>(CheckBoxHeader.java:55)
+2024-09-24 11:36:01,334 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodeSelectionTable.<init>(NvicCodeSelectionTable.java:75)
+2024-09-24 11:36:01,335 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.initComponents(NvicCodePanel.java:102)
+2024-09-24 11:36:01,336 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.<init>(NvicCodePanel.java:78)
+2024-09-24 11:36:01,336 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicTabbedPanel.<init>(NvicTabbedPanel.java:57)
+2024-09-24 11:36:01,337 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.Nvic.getUI(Nvic.java:73)
+2024-09-24 11:36:01,337 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.createIpPanel(BlockDiagram.java:424)
+2024-09-24 11:36:01,338 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:574)
+2024-09-24 11:36:01,340 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:480)
+2024-09-24 11:36:01,340 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.propertyChange(BlockDiagram.java:1407)
+2024-09-24 11:36:01,341 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2024-09-24 11:36:01,341 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2024-09-24 11:36:01,342 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268)
+2024-09-24 11:36:01,343 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54)
+2024-09-24 11:36:01,343 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.firePropertyChange(MxSystem.java:358)
+2024-09-24 11:36:01,345 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.selectIP(PeripheralsSelectionPanel.java:409)
+2024-09-24 11:36:01,346 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsListListener.mouseClicked(PeripheralsListListener.java:103)
+2024-09-24 11:36:01,347 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+2024-09-24 11:36:01,347 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+2024-09-24 11:36:01,348 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+2024-09-24 11:36:01,349 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6629)
+2024-09-24 11:36:01,349 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2024-09-24 11:36:01,350 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2024-09-24 11:36:01,350 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2024-09-24 11:36:01,350 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2024-09-24 11:36:01,352 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2024-09-24 11:36:01,352 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-09-24 11:36:01,353 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2024-09-24 11:36:01,354 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4584)
+2024-09-24 11:36:01,354 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2024-09-24 11:36:01,355 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2024-09-24 11:36:01,355 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-09-24 11:36:01,356 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2024-09-24 11:36:01,356 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-09-24 11:36:01,356 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-09-24 11:36:01,357 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-09-24 11:36:01,358 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-09-24 11:36:01,359 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2024-09-24 11:36:01,359 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2024-09-24 11:36:01,360 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-09-24 11:36:01,360 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-09-24 11:36:01,361 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-09-24 11:36:01,361 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2024-09-24 11:36:01,362 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-09-24 11:36:01,363 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-09-24 11:36:01,363 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-09-24 11:36:01,364 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-09-24 11:36:01,364 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-09-24 11:36:01,365 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-09-24 11:36:01,367 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.Error: no ComponentUI class for: com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=null,paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=]
+2024-09-24 11:36:01,368 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUIError(UIDefaults.java:763)
+2024-09-24 11:36:01,369 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.MultiUIDefaults.getUIError(MultiUIDefaults.java:144)
+2024-09-24 11:36:01,369 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUI(UIDefaults.java:793)
+2024-09-24 11:36:01,370 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIManager.getUI(UIManager.java:1073)
+2024-09-24 11:36:01,370 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.updateUI(JCheckBox.java:228)
+2024-09-24 11:36:01,371 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.init(AbstractButton.java:2141)
+2024-09-24 11:36:01,371 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JToggleButton.<init>(JToggleButton.java:187)
+2024-09-24 11:36:01,372 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:176)
+2024-09-24 11:36:01,372 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:97)
+2024-09-24 11:36:01,373 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader.<init>(CheckBoxHeader.java:55)
+2024-09-24 11:36:01,374 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodeSelectionTable.<init>(NvicCodeSelectionTable.java:78)
+2024-09-24 11:36:01,374 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.initComponents(NvicCodePanel.java:102)
+2024-09-24 11:36:01,375 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.<init>(NvicCodePanel.java:78)
+2024-09-24 11:36:01,375 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicTabbedPanel.<init>(NvicTabbedPanel.java:57)
+2024-09-24 11:36:01,377 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.Nvic.getUI(Nvic.java:73)
+2024-09-24 11:36:01,377 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.createIpPanel(BlockDiagram.java:424)
+2024-09-24 11:36:01,378 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:574)
+2024-09-24 11:36:01,378 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:480)
+2024-09-24 11:36:01,379 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.propertyChange(BlockDiagram.java:1407)
+2024-09-24 11:36:01,380 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2024-09-24 11:36:01,380 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2024-09-24 11:36:01,381 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268)
+2024-09-24 11:36:01,382 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54)
+2024-09-24 11:36:01,382 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.firePropertyChange(MxSystem.java:358)
+2024-09-24 11:36:01,383 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.selectIP(PeripheralsSelectionPanel.java:409)
+2024-09-24 11:36:01,384 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsListListener.mouseClicked(PeripheralsListListener.java:103)
+2024-09-24 11:36:01,384 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+2024-09-24 11:36:01,385 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+2024-09-24 11:36:01,385 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+2024-09-24 11:36:01,386 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6629)
+2024-09-24 11:36:01,387 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2024-09-24 11:36:01,387 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2024-09-24 11:36:01,388 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2024-09-24 11:36:01,388 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2024-09-24 11:36:01,389 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2024-09-24 11:36:01,389 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-09-24 11:36:01,390 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2024-09-24 11:36:01,390 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4584)
+2024-09-24 11:36:01,391 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2024-09-24 11:36:01,391 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2024-09-24 11:36:01,392 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2024-09-24 11:36:01,392 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2024-09-24 11:36:01,393 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2024-09-24 11:36:01,393 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2024-09-24 11:36:01,394 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-09-24 11:36:01,394 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-09-24 11:36:01,395 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2024-09-24 11:36:01,396 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2024-09-24 11:36:01,396 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-09-24 11:36:01,397 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2024-09-24 11:36:01,397 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2024-09-24 11:36:01,398 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2024-09-24 11:36:01,399 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-09-24 11:36:01,399 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-09-24 11:36:01,400 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-09-24 11:36:01,401 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-09-24 11:36:01,401 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-09-24 11:36:01,402 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-09-24 11:36:07,594 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 573766968 Bytes (947912704)
+2024-09-24 11:36:07,661 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 587690656 Bytes (947912704)
+2024-09-24 11:36:08,133 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 644001352 Bytes (947912704)
+2024-09-24 11:36:08,198 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-09-24 11:36:08,198 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-09-24 11:36:08,199 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-09-24 11:36:08,199 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-09-24 11:36:08,199 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-09-24 11:36:08,235 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\license.tmp_save
+2024-09-24 11:36:08,293 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\license.tmp
+2024-09-24 11:36:08,303 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\gpio.tmp_save
+2024-09-24 11:36:08,354 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\gpio.tmp
+2024-09-24 11:36:08,370 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_it.c_save
+2024-09-24 11:36:08,486 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_it.c
+2024-09-24 11:36:08,489 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_it.h_save
+2024-09-24 11:36:08,524 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_it.h
+2024-09-24 11:36:08,538 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_msp.c_save
+2024-09-24 11:36:08,594 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_msp.c
+2024-09-24 11:36:08,597 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\system.tmp_save
+2024-09-24 11:36:08,633 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\system.tmp
+2024-09-24 11:36:08,641 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-09-24 11:36:08,687 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-09-24 11:36:08,698 [INFO] CodeEngine:311 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-09-24 11:36:08,758 [INFO] CodeEngine:335 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_hal_conf.h
+2024-09-24 11:36:08,784 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\main.h_save
+2024-09-24 11:36:08,835 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\main.h
+2024-09-24 11:36:08,845 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\main.c_save
+2024-09-24 11:36:08,895 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\main.c
+2024-09-24 11:36:09,092 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 90mS.
+2024-09-24 11:36:09,094 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-09-24 11:36:09,128 [INFO] ConfigFileManager:1531 - The Die is : DIE433
+2024-09-24 11:36:09,479 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 385mS.
+2024-09-24 11:36:09,479 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-09-24 11:36:09,480 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-09-24 11:43:23,767 [INFO] Gpio:277 - dependency for GPIO []
+2024-09-24 11:43:33,220 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 658772320 Bytes (947912704)
+2024-09-24 11:43:33,633 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 694793808 Bytes (947912704)
+2024-09-24 11:43:33,698 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-09-24 11:43:33,698 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-09-24 11:43:33,698 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-09-24 11:43:33,698 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-09-24 11:43:33,699 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-09-24 11:43:33,733 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\license.tmp_save
+2024-09-24 11:43:33,791 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\license.tmp
+2024-09-24 11:43:33,802 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\gpio.tmp_save
+2024-09-24 11:43:33,864 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\gpio.tmp
+2024-09-24 11:43:33,880 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_it.c_save
+2024-09-24 11:43:33,944 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_it.c
+2024-09-24 11:43:33,946 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_it.h_save
+2024-09-24 11:43:33,993 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_it.h
+2024-09-24 11:43:34,005 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_msp.c_save
+2024-09-24 11:43:34,049 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_msp.c
+2024-09-24 11:43:34,051 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\system.tmp_save
+2024-09-24 11:43:34,093 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\MXTmpFiles\system.tmp
+2024-09-24 11:43:34,102 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-09-24 11:43:34,138 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-09-24 11:43:34,149 [INFO] CodeEngine:311 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-09-24 11:43:34,206 [INFO] CodeEngine:335 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\stm32f4xx_hal_conf.h
+2024-09-24 11:43:34,230 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\main.h_save
+2024-09-24 11:43:34,296 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Inc\main.h
+2024-09-24 11:43:34,310 [INFO] CodeEngine:255 - oldGeneratedFile, D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\main.c_save
+2024-09-24 11:43:34,375 [INFO] CodeEngine:279 - Generated code: D:\Workspace\RTOS_workspace\007Task_Priority\Core\Src\main.c
+2024-09-24 11:43:34,562 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 73mS.
+2024-09-24 11:43:34,563 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-09-24 11:43:34,597 [INFO] ConfigFileManager:1531 - The Die is : DIE433
+2024-09-24 11:43:34,936 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 373mS.
+2024-09-24 11:43:34,936 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-09-24 11:43:34,937 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.

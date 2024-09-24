@@ -1,21 +1,21 @@
-11:44:57 **** Incremental Build of configuration Debug for project 007Task_Priority ****
+13:40:13 **** Incremental Build of configuration Debug for project 003_LED_Block_Tasks ****
 make -j16 all 
-arm-none-eabi-size  007Task_Priority.elf 
+arm-none-eabi-size  003_LED_Block_Tasks.elf 
    text	   data	    bss	    dec	    hex	filename
-  25700	     24	  84616	 110340	  1af04	007Task_Priority.elf
+  26684	     24	  84608	 111316	  1b2d4	003_LED_Block_Tasks.elf
 Finished building: default.size.stdout
  
-11:45:03 **** Incremental Build of configuration Debug for project 007Task_Priority ****
+13:40:16 **** Incremental Build of configuration Debug for project 003_LED_Block_Tasks ****
 make -j16 all 
-arm-none-eabi-size  007Task_Priority.elf 
+arm-none-eabi-size  003_LED_Block_Tasks.elf 
    text	   data	    bss	    dec	    hex	filename
-  25700	     24	  84616	 110340	  1af04	007Task_Priority.elf
+  26684	     24	  84608	 111316	  1b2d4	003_LED_Block_Tasks.elf
 Finished building: default.size.stdout
  
-11:46:04 **** Incremental Build of configuration Debug for project 007Task_Priority ****
+13:40:27 **** Incremental Build of configuration Debug for project 003_LED_Block_Tasks ****
 make -j16 all 
-arm-none-eabi-size  007Task_Priority.elf 
+arm-none-eabi-size  003_LED_Block_Tasks.elf 
    text	   data	    bss	    dec	    hex	filename
-  25700	     24	  84616	 110340	  1af04	007Task_Priority.elf
+  26684	     24	  84608	 111316	  1b2d4	003_LED_Block_Tasks.elf
 Finished building: default.size.stdout
  

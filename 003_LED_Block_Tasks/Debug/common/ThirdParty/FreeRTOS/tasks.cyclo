@@ -20,6 +20,8 @@ D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/tasks.c:2286:12:xTaskGetT
 D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/tasks.c:2301:12:xTaskGetTickCountFromISR	1
 D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/tasks.c:2332:13:uxTaskGetNumberOfTasks	1
 D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/tasks.c:2340:8:pcTaskGetName	3
+D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/tasks.c:2354:20:prvSearchForNameWithinSingleList	10
+D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/tasks.c:2425:18:xTaskGetHandle	8
 D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/tasks.c:2489:17:uxTaskGetSystemState	4
 D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/tasks.c:2564:18:xTaskGetIdleTaskHandle	2
 D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/tasks.c:2616:12:xTaskCatchUpTicks	2
