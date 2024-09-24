@@ -181,7 +181,7 @@ static UBaseType_t uxCriticalNesting = 0xaaaaaaaa;
  */
 #if ( configASSERT_DEFINED == 1 )
     static uint8_t ucMaxSysCallPriority = 0;
-    static uint32_t ulMaxPRIGROUPValue = 0;
+    static uint32_t ulMaxPRIGROUPValue = (7 << 8);  // Maksimalna vrednost PRIGROUP (7) shiftovana za 8 bitova
     static const volatile uint8_t * const pcInterruptPriorityRegisters = ( const volatile uint8_t * const ) portNVIC_IP_REGISTERS_OFFSET_16;
 #endif /* configASSERT_DEFINED */
 
