@@ -1,0 +1,17 @@
+18:24:47 **** Incremental Build of configuration Debug for project 008_Queues_n_timers ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/task_handler.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/include" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/Config" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/OS" -I"D:/Workspace/RTOS_workspace/common/ThirdParty/SEGGER/SEGGER" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/task_handler.d" -MT"Core/Src/task_handler.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/task_handler.o"
+arm-none-eabi-gcc -o "008_Queues_n_timers.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\Workspace\RTOS_workspace\008_Queues_n_timers\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="008_Queues_n_timers.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 008_Queues_n_timers.elf
+ 
+arm-none-eabi-size  008_Queues_n_timers.elf 
+arm-none-eabi-objdump -h -S 008_Queues_n_timers.elf  > "008_Queues_n_timers.list"
+   text	   data	    bss	    dec	    hex	filename
+  22456	     24	  78992	 101472	  18c60	008_Queues_n_timers.elf
+Finished building: default.size.stdout
+ 
+Finished building: 008_Queues_n_timers.list
+ 
+
+18:24:47 Build Finished. 0 errors, 0 warnings. (took 718ms)
+
