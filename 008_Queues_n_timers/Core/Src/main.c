@@ -55,6 +55,15 @@ xTaskHandle handle_rtc_task;
 QueueHandle_t q_data;
 QueueHandle_t q_print;
 
+//software timer handles
+TimerHandle_t  handle_led_timer[4];
+TimerHandle_t rtc_timer;
+
+volatile uint8_t user_data;
+
+//state variable
+state_t curr_state = sMainMenu;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -63,7 +72,8 @@ static void MX_GPIO_Init(void);
 static void MX_RTC_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
-
+void led_effect_callback(TimerHandle_t xTimer);
+void rtc_report_callback( TimerHandle_t xTimer );
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -133,6 +143,15 @@ int main(void)
   	q_print = xQueueCreate (10, sizeof(size_t));
 
   	configASSERT(q_print != NULL);
+
+  	//Create software timers for LED effects
+  	for(int i = 0 ; i < 4 ; i++)
+  	handle_led_timer[i] = xTimerCreate("led_timer",pdMS_TO_TICKS(500),pdTRUE, (void*)(i+1),led_effect_callback);
+
+
+  	rtc_timer = xTimerCreate ("rtc_report_timer",pdMS_TO_TICKS(1000),pdTRUE,NULL,rtc_report_callback);
+
+  	HAL_UART_Receive_IT(&huart2, (uint8_t*)&user_data, 1);
 
   	vTaskStartScheduler();
 
@@ -312,6 +331,38 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+	uint8_t dummy;
+
+	for(uint32_t i = 0 ; i < 4000 ; i++);
+
+	if(! xQueueIsQueueFullFromISR(q_data))
+	{
+		/*Enqueue data byte */
+		xQueueSendFromISR(q_data , (void*)&user_data , NULL);
+	}else{
+		if(user_data == '\n')
+		{
+			/*Make sure that last data byte of the queue is '\n' */
+			xQueueReceiveFromISR(q_data,(void*)&dummy,NULL);
+			xQueueSendFromISR(q_data ,(void*)&user_data , NULL);
+		}
+	}
+
+	/*Send notification to command handling task if user_data = '\n' */
+	if( user_data == '\n' ){
+		/*send notification to command handling task */
+		xTaskNotifyFromISR (handle_cmd_task,0,eNoAction,NULL);
+	}
+
+	/* Enable UART data byte reception again in IT mode */
+	 HAL_UART_Receive_IT(&huart2, (uint8_t*)&user_data, 1);
+
+
+}
+
 
 /* USER CODE END 4 */
 
