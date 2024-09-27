@@ -2760,3 +2760,240 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-27 15:38:56.001
 !MESSAGE Log4j2 initialized with config file D:\Workspace\RTOS_workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-27 15:39:00.816
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-09-27 15:50:29.760 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-09-27 15:50:38.572
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-09-27 15:50:38.575
+!MESSAGE Log4j2 initialized with config file D:\Workspace\RTOS_workspace\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-09-27 15:50:44.425
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-09-27 15:50:57.769
+!MESSAGE Error loading provider class=[fr.ac6.mcu.ide.build.CrossBuiltinSpecsDetector] in project=STM32_FreeRTOS_Mutex_using_Bin_Sema, cfg=[fr.ac6.managedbuild.config.gnu.cross.exe.debug.397614689]
+!STACK 1
+org.eclipse.core.runtime.CoreException: Not able to load provider class=fr.ac6.mcu.ide.build.CrossBuiltinSpecsDetector
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsExtensionManager.instantiateProviderClass(LanguageSettingsExtensionManager.java:283)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadProvider(LanguageSettingsProvidersSerializer.java:1160)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettingsInternal(LanguageSettingsProvidersSerializer.java:1054)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettings(LanguageSettingsProvidersSerializer.java:1197)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:508)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:471)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:342)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:931)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-09-27 15:50:57.770
+!MESSAGE Not able to load provider class=fr.ac6.mcu.ide.build.CrossBuiltinSpecsDetector
+
+!ENTRY org.eclipse.cdt.core 4 0 2024-09-27 15:50:57.770
+!MESSAGE Error loading provider class=[fr.ac6.mcu.ide.build.CrossBuiltinSpecsDetector] in project=STM32_FreeRTOS_Mutex_using_Bin_Sema, cfg=[fr.ac6.managedbuild.config.gnu.cross.exe.release.1665131665]
+!STACK 1
+org.eclipse.core.runtime.CoreException: Not able to load provider class=fr.ac6.mcu.ide.build.CrossBuiltinSpecsDetector
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsExtensionManager.instantiateProviderClass(LanguageSettingsExtensionManager.java:283)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadProvider(LanguageSettingsProvidersSerializer.java:1160)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettingsInternal(LanguageSettingsProvidersSerializer.java:1054)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.loadLanguageSettings(LanguageSettingsProvidersSerializer.java:1197)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:508)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:471)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:342)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:931)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2024-09-27 15:50:57.771
+!MESSAGE Not able to load provider class=fr.ac6.mcu.ide.build.CrossBuiltinSpecsDetector
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.772
+!MESSAGE Orphaned CDT build configuration [fr.ac6.managedbuild.config.gnu.cross.exe.debug.397614689]: parent extension cfg [fr.ac6.managedbuild.config.gnu.cross.exe.debug] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:471)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:342)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:931)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.774
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.mcu" for "fr.ac6.managedbuild.option.gnu.cross.mcu.706507749"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.774
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.fpu" for "fr.ac6.managedbuild.option.gnu.cross.fpu.1437707573"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.774
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.floatabi" for "fr.ac6.managedbuild.option.gnu.cross.floatabi.847016283"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.775
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.board" for "fr.ac6.managedbuild.option.gnu.cross.board.426920775"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.776
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" for "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.2037754509"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.778
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" for "fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.1492175981"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.812
+!MESSAGE Orphaned CDT build configuration [fr.ac6.managedbuild.config.gnu.cross.exe.release.1665131665]: parent extension cfg [fr.ac6.managedbuild.config.gnu.cross.exe.release] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:471)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:342)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:931)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.814
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.mcu" for "fr.ac6.managedbuild.option.gnu.cross.mcu.1243482985"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.814
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.fpu" for "fr.ac6.managedbuild.option.gnu.cross.fpu.424151552"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.815
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.floatabi" for "fr.ac6.managedbuild.option.gnu.cross.floatabi.1438404153"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.815
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.board" for "fr.ac6.managedbuild.option.gnu.cross.board.692557545"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.816
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" for "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.532512664"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2024-09-27 15:50:57.816
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" for "fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.826675952"
+
+!ENTRY com.st.stm32cube.common.logger 4 0 2024-09-27 15:51:05.696
+!MESSAGE No toolchain option in toolchain configuration fr.ac6.managedbuild.toolchain.gnu.cross.exe.debug.1927517217: 
+!STACK 0
+org.eclipse.cdt.managedbuilder.core.BuildException: No toolchain option in toolchain configuration fr.ac6.managedbuild.toolchain.gnu.cross.exe.debug.1927517217: 
+	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainId(ToolChainHelper.java:166)
+	at com.st.stm32cube.ide.mcu.toolchain.ToolChainHelper.getToolChainInfo(ToolChainHelper.java:109)
+	at com.st.stm32cube.ide.mcu.build.setup.BuildSetupUtilities.getLinkScript(BuildSetupUtilities.java:475)
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
