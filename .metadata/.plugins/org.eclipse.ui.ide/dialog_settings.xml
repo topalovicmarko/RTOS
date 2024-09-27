@@ -21,4 +21,14 @@
 		<item key="DIALOG_HEIGHT" value="467"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Workspace\RTOS_workspace\STM32_FreeRTOS_Cnt_Sema_Tasks"/>
+			<item value="D:\Workspace\RTOS_workspace\STM32_FreeRTOS_Bin_Sema_Tasks"/>
+		</list>
+	</section>
 </section>
